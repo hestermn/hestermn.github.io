@@ -1,0 +1,145 @@
+html,
+body {
+   margin:0;
+   padding:0;
+   height:100%;
+}
+
+#container {
+   min-height:100%;
+   position:relative;
+}
+
+#body {
+   padding:10px;
+   padding-bottom:40px;   /* Height of the footer */
+}
+#footer {
+   position:absolute;
+   bottom:0;
+   width:100%;
+   text-align: right;
+   height:40px;   /* Height of the footer */
+}
+
+body {
+    font-family: 'Josefin Sans', sans-serif;
+    background: #ECEEF0;
+    color: #595959;
+}
+
+#stylizedblock {
+  padding-top: 420px;
+  width: 495px;
+  margin: 0 auto;
+  text-align: center;
+}
+
+#aboutme {
+  padding-top: 400px;
+  width: 500px;
+  margin: 0 auto;
+  text-align: center;
+}
+
+#standard {
+  padding-top: 80px;
+  /*width: 500px;
+  margin: 0 auto;*/
+  text-align: center;
+}
+
+#contact {
+  padding-top: 80px;
+  width: 500px;
+  margin: 0 auto;
+  /*width: 500px;
+  margin: 0 auto;*/
+  text-align: center;
+}
+
+#selling {
+  padding-top: 20px;
+  padding-bottom: 150px;
+  width: 500px;
+  margin: 0 auto;
+  text-align: center;
+}
+
+.left{
+  text-align: left;
+}
+.right{
+  text-align: right;
+
+}
+
+
+h1 {
+    font-family: 'Dancing Script', cursive;
+    display: inline;
+    font-size: 5.5em;
+    color: #C8A875;
+}
+h2 {
+  font-family: 'Dancing Script', cursive;
+  display: inline;
+  font-size: 3.5em;
+  color: #595959;
+}
+
+img.round {
+  width: 25%;
+  height: auto;
+  margin: 100px;
+}
+
+img.headericon {
+  width: 50;
+  height: auto;
+}
+
+#centeredmenu {
+    float: left;
+    width: 100%;
+    background: #ECEEF0;
+    overflow: hidden;
+    position: relative;
+}
+#centeredmenu ul {
+    clear: left;
+    float: left;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    position: relative;
+    left: 50%;
+    text-align: center;
+}
+#centeredmenu ul li {
+    display: block;
+    float: left;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    position: relative;
+    right: 50%;
+}
+#centeredmenu ul li a {
+    display: block;
+    margin: 0 0 0 40px;
+    padding: 3px 10px;
+    background: #ECEEF0;
+    color: #595959;
+    text-decoration: none;
+    line-height: 2.3em;
+}
+#centeredmenu ul li a:hover {
+    background: #DCDEE0;
+    color: #fff;
+}
+#centeredmenu ul li a.active, #centeredmenu ul li a.active:hover {
+    color: #fff;
+    background: #000;
+    font-weight: bold;
+}
