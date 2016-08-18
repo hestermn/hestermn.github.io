@@ -58,6 +58,26 @@ body {
   text-align: center;
 }
 
+
+#design {
+  padding-top: 80px;
+  text-align: center;
+  width: 100%;
+}
+
+.projectsdiv {
+  display: inline-block;
+  padding-top: 200px;
+  text-decoration: none;
+  width: 23%;
+  margin: 0.5%;
+}
+
+.projectsdiv img {
+  width: 100%;
+  height: auto;
+}
+
 #selling {
   padding-top: 20px;
   padding-bottom: 150px;
