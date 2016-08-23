@@ -59,6 +59,11 @@ body {
   text-align: center;
 }
 
+#standard embed {
+  width: 710px;
+  height: 625px;
+}
+
 #contact {
   padding-top: 80px;
   width: 500px;
@@ -222,15 +227,17 @@ img.projecticon {
     font-weight: bold;
 }
 
+@media screen and (max-width: 750px) {
+  #standard embed {
+      width: 100%;      
+  }
+
+}
+
+
 @media screen and (max-width: 600px) {
   #centeredmenu ul li a {
-      display: block;
-      margin: 0 0 0 5px;
-      padding: 3px 10px;
-      background: #ECEEF0;
-      color: #595959;
-      text-decoration: none;
-      line-height: 2.3em;
+      margin: 0 0 0 0px;
   }
   #stylizedblock,
   #selling,
