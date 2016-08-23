@@ -59,7 +59,7 @@ body {
   text-align: center;
 }
 
-#standard embed {
+#standard object {
   width: 710px;
   height: 625px;
 }
@@ -228,8 +228,8 @@ img.projecticon {
 }
 
 @media screen and (max-width: 750px) {
-  #standard embed {
-      width: 100%;      
+  #standard object {
+      width: 100%;
   }
 
 }
