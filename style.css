@@ -36,8 +36,17 @@ body {
   text-align: center;
 }
 
+#selling {
+  padding-top: 130px;
+  padding-bottom: 20px;
+  width: 500px;
+  margin: 0 auto;
+  text-align: center;
+}
+
 #aboutme {
   padding-top: 400px;
+  padding-bottom: 20px;
   width: 500px;
   margin: 0 auto;
   text-align: center;
@@ -127,14 +136,6 @@ body {
 .projectsdiv img {
   width: 100%;
   height: auto;
-}
-
-#selling {
-  padding-top: 20px;
-  padding-bottom: 150px;
-  width: 500px;
-  margin: 0 auto;
-  text-align: center;
 }
 
 .left{
