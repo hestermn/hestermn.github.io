@@ -59,6 +59,36 @@ body {
   text-align: center;
 }
 
+#contact-details {
+  padding-top: 80px;
+  /*width: 70%;*/
+  width: 400px;
+  margin: 0 auto;
+  /*width: 500px;
+  margin: 0 auto;*/
+  text-align: center;
+}
+
+#contact-details a {
+  text-decoration: none;
+  color: inherit;
+  display: inline-block;
+  height: 30px;
+  /*width: 35%;
+  margin: 1%;*/
+  margin: 10px;
+  text-align: left;
+
+}
+
+#contact-details a span {
+  vertical-align: middle;
+}
+
+#contact-details a img {
+  width: 30px;
+  height: 30px;
+}
 
 #design {
   padding-top: 80px;
@@ -112,7 +142,6 @@ body {
 }
 .right{
   text-align: right;
-
 }
 
 
