@@ -169,6 +169,12 @@ img.headericon {
   margin: 30px;
 
 }
+img.projecticon {
+  width: 200;
+  height: auto;
+  margin: 30px;
+
+}
 
 #centeredmenu {
     float: left;
