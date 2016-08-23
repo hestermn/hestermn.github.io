@@ -5,6 +5,7 @@ body {
    height:100%;
 }
 
+/* For creating a good footer and header */
 #container {
    min-height:100%;
    position:relative;
@@ -62,12 +63,32 @@ body {
 #design {
   padding-top: 80px;
   text-align: center;
+  margin: 0 auto;
+  width: 90%;
+  overflow: hidden;
+}
+
+#design a {
+  text-decoration: none;
+}
+
+#design a img {
+  float: left;
+  width: 22.5%;
+  margin: 1.25%;
+  height: auto;
+}
+
+
+#projects {
+  padding-top: 80px;
+  text-align: center;
   width: 100%;
 }
 
 .projectsdiv {
   display: inline-block;
-  padding-top: 200px;
+  padding-top: 150px;
   text-decoration: none;
   width: 23%;
   margin: 0.5%;
