@@ -31,7 +31,7 @@ body {
 
 #stylizedblock {
   padding-top: 420px;
-  width: 495px;
+  width: 390px;
   margin: 0 auto;
   text-align: center;
 }
@@ -39,7 +39,7 @@ body {
 #selling {
   padding-top: 130px;
   padding-bottom: 20px;
-  width: 500px;
+  width: 60%;
   margin: 0 auto;
   text-align: center;
 }
@@ -47,7 +47,7 @@ body {
 #aboutme {
   padding-top: 400px;
   padding-bottom: 20px;
-  width: 500px;
+  width: 60%;
   margin: 0 auto;
   text-align: center;
 }
@@ -165,7 +165,7 @@ h2 {
 }
 
 img.round {
-  width: 25%;
+  width: 125px;
   height: auto;
 }
 
@@ -239,7 +239,6 @@ img.projecticon {
   #centeredmenu ul li a {
       margin: 0 0 0 0px;
   }
-  #stylizedblock,
   #selling,
   #aboutme,
   #contact,
