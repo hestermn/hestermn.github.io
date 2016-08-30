@@ -25,15 +25,21 @@ body {
 
 body {
     font-family: 'Josefin Sans', sans-serif;
-    background: #ECEEF0;
+    background: rgb(244,244,244);
     color: #595959;
 }
 
 #stylizedblock {
-  padding-top: 420px;
-  width: 390px;
+  /*padding-top: 420px;*/
   margin: 0 auto;
   text-align: center;
+}
+
+
+#stylizedblock img{
+  /*padding-top: 420px;*/
+  width: 85%;
+  height: auto;
 }
 
 #selling {
@@ -185,7 +191,7 @@ img.projecticon {
 #centeredmenu {
     float: left;
     width: 100%;
-    background: #ECEEF0;
+    background: rgb(244,244,244);
     overflow: hidden;
     position: relative;
 }
@@ -212,7 +218,7 @@ img.projecticon {
     display: block;
     margin: 0 0 0 40px;
     padding: 3px 10px;
-    background: #ECEEF0;
+    background: rgb(244,244,244);
     color: #595959;
     text-decoration: none;
     line-height: 2.3em;
