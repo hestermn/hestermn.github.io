@@ -38,7 +38,7 @@ body {
 
 #stylizedblock img{
   /*padding-top: 420px;*/
-  width: 85%;
+  width: 71%;
   height: auto;
 }
 
@@ -64,14 +64,25 @@ body {
   margin: 0 auto;
   text-align: center;
 }
+
 #thirds {
-  padding:20px;
+  padding: 20px 7% 0px 7%;
   display:inline-block;
-  width: 25%;
+  width: 15%;
   margin: 0 auto;
   text-align: center;
+  vertical-align:bottom;
+
 }
 
+#thirdstext {
+  padding: 0px 7% 20px 7%;
+  display:inline-block;
+  width: 15%;
+  margin: 0 auto;
+  text-align: center;
+  vertical-align:top;
+}
 
 #standard {
   padding-top: 80px;
@@ -95,10 +106,10 @@ body {
 }
 
 #contact-details {
-  padding-top: 40px;
+  padding-top: 60px;
   padding-bottom: 40px;
-  /*width: 70%;*/
-  width: 400px;
+  width: 100%;
+
   margin: 0 auto;
   /*width: 500px;
   margin: 0 auto;*/
@@ -112,7 +123,8 @@ body {
   height: 30px;
   /*width: 35%;
   margin: 1%;*/
-  margin: 0 5%;
+  margin: 0 7%;
+
   text-align: left;
 
 }
@@ -145,11 +157,95 @@ body {
   height: auto;
 }
 
-
 #projects {
   padding-top: 80px;
   text-align: center;
   width: 100%;
+}
+
+#weather {
+  text-align: center;
+  margin: 0 auto;
+  width: 90%;
+  overflow: hidden;
+}
+
+#weathersubdiv {
+  padding: 20px;
+  display: inline-block;
+  text-decoration: none;
+  width: 42%;
+  margin: 0.5%;
+  vertical-align:middle;
+}
+
+#weathersubdiv-large {
+  padding: 20px;
+  display: inline-block;
+  text-decoration: none;
+  width: 60%;
+  margin: 0.5%;
+}
+
+
+#motosubdiv {
+  padding: 20px;
+  display: inline-block;
+  text-decoration: none;
+  width: 42%;
+  margin: 0.5%;
+  vertical-align:middle;
+  text-align: justify;
+}
+
+#bikesubdiv {
+  padding: 20px;
+  display: inline-block;
+  text-decoration: none;
+  width: 28%;
+  margin: 0.5%;
+  vertical-align:middle;
+}
+
+#textsubdiv {
+  padding: 20px;
+  display: inline-block;
+  text-decoration: none;
+  width: 50%;
+  margin: 0.5%;
+  vertical-align:middle;
+  text-align: justify;
+}
+
+#automatedsubdiv {
+  padding: 20px;
+  display: inline-block;
+  text-decoration: none;
+  width: 66%;
+  margin: 0.5%;
+}
+
+#motosubdiv a,
+#bikesubdiv a,
+#weathersubdiv a,
+#weathersubdiv-large a
+#automatedsubdiv a{
+  text-decoration: none;
+}
+
+#motosubdiv a img,
+#bikesubdiv a img,
+#weathersubdiv a img,
+#weathersubdiv-large a img{
+  text-align: center;
+  width: 95%;
+  height: auto;
+}
+
+#automatedsubdiv a img{
+  text-align: center;
+  width: 30%;
+  height: auto;
 }
 
 .projectsdiv {
@@ -161,7 +257,7 @@ body {
 }
 
 .projectsdiv img {
-  width: 100%;
+  width: 80%;
   height: auto;
 }
 
@@ -182,7 +278,7 @@ h1 {
 h2 {
   font-family: 'Dancing Script', cursive;
   display: inline;
-  font-size: 2.5em;
+  font-size: 2.1em;
   color: #595959;
 }
 
@@ -194,7 +290,7 @@ img.round {
 
 img.third {
   width: 90%;
-  max-width: 150px;
+  max-width: 100px;
   height: auto;
 }
 
@@ -205,7 +301,7 @@ img.headericon {
 
 }
 img.projecticon {
-  width: 200;
+  width: 300;
   height: auto;
   margin: 30px;
 
@@ -267,18 +363,34 @@ img.projecticon {
 
 }
 
-
 @media screen and (max-width: 600px) {
   #centeredmenu ul li a {
       margin: 0 0 0 0px;
   }
+
+
+  #motosubdiv,
+  #weathersubdiv
+  {
+    width: 40%;
+  }
+
+  #bikesubdiv,
+  #textsubdiv,
+  {
+    width: 50%;
+  }
+
   #selling,
   #skills,
   #aboutme,
   #contact,
   #contact-details,
+  #weather,
+  #weathersubdiv-large,
   #stylizedblock img
   {
     width: 100%;
   }
+
 }
