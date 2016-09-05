@@ -59,6 +59,20 @@ body {
   text-align: center;
 }
 
+#skills {
+  width: 90%;
+  margin: 0 auto;
+  text-align: center;
+}
+#thirds {
+  padding:20px;
+  display:inline-block;
+  width: 25%;
+  margin: 0 auto;
+  text-align: center;
+}
+
+
 #standard {
   padding-top: 80px;
   /*width: 500px;
@@ -173,8 +187,14 @@ h2 {
 }
 
 img.round {
-  width: 125px;
+  width: 150px;
   padding: 40px;
+  height: auto;
+}
+
+img.third {
+  width: 90%;
+  max-width: 150px;
   height: auto;
 }
 
@@ -240,6 +260,10 @@ img.projecticon {
   #standard object {
       width: 100%;
   }
+  .projectsdiv {
+    width: 46%;
+    padding-top: 10px;
+  }
 
 }
 
@@ -249,6 +273,7 @@ img.projecticon {
       margin: 0 0 0 0px;
   }
   #selling,
+  #skills,
   #aboutme,
   #contact,
   #contact-details,
