@@ -42,16 +42,17 @@ body {
   height: auto;
 }
 
-#selling {
-  padding-top: 130px;
+
+#aboutme {
+  padding-top: 300px;
   padding-bottom: 20px;
   width: 60%;
   margin: 0 auto;
   text-align: center;
 }
 
-#aboutme {
-  padding-top: 400px;
+#selling {
+  padding-top: 150px;
   padding-bottom: 20px;
   width: 60%;
   margin: 0 auto;
@@ -80,7 +81,8 @@ body {
 }
 
 #contact-details {
-  padding-top: 80px;
+  padding-top: 40px;
+  padding-bottom: 40px;
   /*width: 70%;*/
   width: 400px;
   margin: 0 auto;
@@ -96,7 +98,7 @@ body {
   height: 30px;
   /*width: 35%;
   margin: 1%;*/
-  margin: 10px;
+  margin: 0 5%;
   text-align: left;
 
 }
@@ -172,6 +174,7 @@ h2 {
 
 img.round {
   width: 125px;
+  padding: 40px;
   height: auto;
 }
 
@@ -248,7 +251,8 @@ img.projecticon {
   #selling,
   #aboutme,
   #contact,
-  #contact-details
+  #contact-details,
+  #stylizedblock img
   {
     width: 100%;
   }
