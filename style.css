@@ -306,8 +306,15 @@ h2 {
   color: #595959;
 }
 
+h3 {
+  font-family: 'Dancing Script', cursive;
+  display: inline;
+  font-size: 1.5em;
+  color: #595959;
+}
+
 img.round {
-  width: 150px;
+  width: 300px;
   padding: 40px;
   height: auto;
 }
